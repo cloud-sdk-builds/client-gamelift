@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-gamelift`](https://www.npmjs.com/package/@aws-sdk/client-gamelift/v/3.354.0).
+[`@aws-sdk/client-gamelift`](https://www.npmjs.com/package/@aws-sdk/client-gamelift/v/3.357.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-gamelift@3.354.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-gamelift@3.357.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-qJZBwxU0A2GHdQ0YPyevXcnh+DQlYWgBSHgA8d4rDqFg+N6k4NJmJ3DVu1M6vEwh
+sha384-pduRNov5GyUWgAOgo2TYqi7x37e/h1vdrgBmN4USDkibnmO6X8l8t6x9tUHm73qJ
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-gamelift": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-gamelift@3.354.0/index.min.mjs"
+            "@aws-sdk/client-gamelift": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-gamelift@3.357.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-gamelift@3.354.0/index.min.mjs": "sha384-qJZBwxU0A2GHdQ0YPyevXcnh+DQlYWgBSHgA8d4rDqFg+N6k4NJmJ3DVu1M6vEwh"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-gamelift@3.357.0/index.min.mjs": "sha384-pduRNov5GyUWgAOgo2TYqi7x37e/h1vdrgBmN4USDkibnmO6X8l8t6x9tUHm73qJ"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-gamelift": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-gamelift@3.354.0/index.min.mjs"
+                        "@aws-sdk/client-gamelift": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-gamelift@3.357.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-gamelift@3.354.0/index.min.mjs": "sha384-qJZBwxU0A2GHdQ0YPyevXcnh+DQlYWgBSHgA8d4rDqFg+N6k4NJmJ3DVu1M6vEwh"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-gamelift@3.357.0/index.min.mjs": "sha384-pduRNov5GyUWgAOgo2TYqi7x37e/h1vdrgBmN4USDkibnmO6X8l8t6x9tUHm73qJ"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.354.0`)
+* Always pin to a specific version (`@3.357.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-gamelift/blob/refs/tags/3.354.0/LICENSE
+https://github.com/cloud-sdk-builds/client-gamelift/blob/refs/tags/3.357.0/LICENSE
 ```
 
 ---
